@@ -8,49 +8,49 @@ switch ($day){
     case "Friday":
         $bgColor="";
         $pic="";
-        $comment="";
+        $comment="PHP is free to use.";
         
         break;
         case "Saturday":
         $bgColor="";
         $pic="";
-        $comment="";
+        $comment="PHP can be embedded in HTML code.";
         
         break;
         case "Sunday":
         $bgColor="";
         $pic="";
-        $comment="";
+        $comment="PHP 7 is the most current version of PHP.";
         
         break;
         case "Monday":
         $bgColor="";
         $pic="";
-        $comment="";
+        $comment="PHP was created in 1994 by Rasmus Lerdorf.";
         
         break;
         case "Tusday":
         $bgColor="";
         $pic="";
-        $comment="";
+        $comment="PHP originally stood for Personal Home Page but now it stands for PHP: Hypertext Preprocessor";
         
         break;
         case "wednesday":
         $bgColor="";
         $pic="";
-        $comment="";
+        $comment="PHP is server side scripting language used in web development.";
         
         break;
         case "Thursday":
         $bgColor="";
         $pic="";
-        $comment="";
+        $comment="PHP creates dynamic web content.";
         
         break;
         default:
         $bgColor="";
         $pic="";
-        $comment="";
+        $comment="PHP is fun!";
         
         break;
      
