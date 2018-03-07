@@ -77,6 +77,8 @@ switch ($day){
       <h1>Today</h1>
       <img src="/w3images/avatar3.png" class="w3-margin w3-circle" alt="Person" style="width:50%">
       <div class="w3-left-align w3-padding-large">
+          <?php echo "<body style='background-color:$bg_color;'></body>"; ?>
+                <?php echo $sentence;?>
         <p>Lorem ipusm sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
         <p>Lorem ipusm sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
       </div>
