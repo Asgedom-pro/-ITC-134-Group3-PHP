@@ -1,0 +1,91 @@
+<p>The PHP switch statement, also referred to as the switch case statement, tests variables against a series of code until there is a match then the code is executed corresponding to the match. It gives different options for a value and you can run different code based on a set value. Case is used to announce each option in a statement. The switch statement executes code line by line looking for a statement that evaluates to true. Once there is a match it’ll execute all consecutive statements until the end of the code block. A break statement stops the code from executing to the next case block once it executes the code related to the first case. The default code block is executed if the other code blocks evaluate to false. </p>
+
+Code example starts off looking like this:<br>
+
+<figure><pre><code>
+switch(n){
+    case label1:
+               break;
+    case label2:
+                break;
+    ...
+    default:
+       
+} 
+</code></pre></figure>
+<p>
+How to use switch statement to display a different message every day:<br>
+<figure><pre><code>
+<?php
+// set date time format 
+date_default_timezone_set('America/Los_Angeles');
+$day = date("l")
+$today = date("F j, Y")
+
+// set switch by day     
+switch ($day){
+// set case
+    case "Friday": 
+// set variables to be executed if requirements are met
+        $bgColor="";
+        $pic="";
+        $comment="";
+// set break
+        break;
+
+        case "Saturday":
+        $bgColor="";
+        $pic="";
+        $comment="";
+        
+        break;
+        case "Sunday":
+        $bgColor="";
+        $pic="";
+        $comment="";
+        
+        break;
+        case "Monday":
+        $bgColor="";
+        $pic="";
+        $comment="";
+        
+        break;
+        case "Tuesday":
+        $bgColor="";
+        $pic="";
+        $comment="";
+        
+        break;
+        case "wednesday":
+        $bgColor="";
+        $pic="";
+        $comment="";
+        
+        break;
+        case "Thursday":
+        $bgColor="";
+        $pic="";
+        $comment="";
+        
+        break;
+
+// set default code block
+        default:
+        $bgColor="";
+        $pic="";
+        $comment="";
+        
+        break;
+     
+        
+}
+?>
+</code></pre></figure></p>
+
+<p>To call the switch case in an HTML file you reference the variable name:<br>
+<figure><code><pre>
+<img id="dailyhair" src="<?=$pic?>" />
+  <?php echo "<body style='background-color:$bg_color;'></body>"; ?>
+  <?php echo $sentence;?>
+</code></pre></figure></p>
